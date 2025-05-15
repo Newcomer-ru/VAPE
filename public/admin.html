@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Админ-панель</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Администрирование</h1>
+  <div id="admin-auth"></div>
+  <div id="admin-panel" style="display:none;">
+    <h2>Добавить товар</h2>
+    <input id="title" placeholder="Название" />
+    <input id="price" placeholder="Цена" />
+    <input id="stock" placeholder="Остаток" />
+    <button onclick="addProduct()">Добавить</button>
+    <h2>Склад</h2>
+    <div id="inventory"></div>
+  </div>
+  <script src="/admin.js"></script>
+</body>
+</html>
